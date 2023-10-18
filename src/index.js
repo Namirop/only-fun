@@ -4,7 +4,7 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-import MainPage from "./components/MainPage";
+import MainPage from "./components/MainPage/MainPage";
 
 const router = createBrowserRouter([
     {
@@ -12,7 +12,6 @@ const router = createBrowserRouter([
         element: <MainPage />,
     },
 ]);
-
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
         <RouterProvider router={router} />

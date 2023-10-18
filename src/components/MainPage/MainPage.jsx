@@ -1,8 +1,8 @@
 function MainPage() {
     return (
-        <div>
-        <h1>Main Page</h1>
-        </div>
+    <div>
+        <h1>ONLYFUN</h1>
+    </div>
     );
 }
 
